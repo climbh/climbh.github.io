@@ -49,7 +49,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           branch: gh-pages # 部署后提交到的分支, 会新增一个gh-pages的分支用作部署使用
-          folder: dist
+          path: dist
 
   # 部署工作
   deploy:
