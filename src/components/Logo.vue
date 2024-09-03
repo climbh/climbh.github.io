@@ -34,7 +34,7 @@
   animation-delay: 0s;
 }
 
-.dark .path1 {
+.dark .path {
   stroke: #fdfdfd;
 }
 </style>
