@@ -1,6 +1,6 @@
 **[climbh.me](https://climbh.github.io)**
 
-my personal website
+我的个人网站
 
 <br>
 
