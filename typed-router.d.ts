@@ -23,6 +23,7 @@ declare module 'vue-router/auto-routes' {
     '/collective-sponsor-onetime': RouteRecordInfo<'/collective-sponsor-onetime', '/collective-sponsor-onetime', Record<never, never>, Record<never, never>>,
     '/notes/': RouteRecordInfo<'/notes/', '/notes', Record<never, never>, Record<never, never>>,
     '/notes/error-init-the-project': RouteRecordInfo<'/notes/error-init-the-project', '/notes/error-init-the-project', Record<never, never>, Record<never, never>>,
+    '/notes/vscode-publish-problem': RouteRecordInfo<'/notes/vscode-publish-problem', '/notes/vscode-publish-problem', Record<never, never>, Record<never, never>>,
     '/posts/': RouteRecordInfo<'/posts/', '/posts', Record<never, never>, Record<never, never>>,
     '/posts/first-log': RouteRecordInfo<'/posts/first-log', '/posts/first-log', Record<never, never>, Record<never, never>>,
     '/sponsors-list': RouteRecordInfo<'/sponsors-list', '/sponsors-list', Record<never, never>, Record<never, never>>,

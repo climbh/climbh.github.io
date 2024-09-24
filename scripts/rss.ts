@@ -6,10 +6,10 @@ import MarkdownIt from 'markdown-it'
 import type { FeedOptions, Item } from 'feed'
 import { Feed } from 'feed'
 
-const DOMAIN = 'https://antfu.me'
+const DOMAIN = 'https://climbh.github.io/'
 const AUTHOR = {
   name: 'Code H',
-  email: 'hi@antfu.me',
+  email: '171832340@qq.com',
   link: DOMAIN,
 }
 const markdown = MarkdownIt({

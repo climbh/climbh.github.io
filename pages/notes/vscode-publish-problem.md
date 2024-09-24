@@ -1,7 +1,7 @@
 ---
 title: Vscode插件开发
-description:
-date: 2024-09-23T15:50:31Z
+description: 简单的走一遍Vscode插件开发的过程和发布
+date: 2024-09-23T15:50:31:00.000+00:00
 lang: zh
 duration: 20min
 ---
@@ -26,7 +26,7 @@ yo code
 
 初始化时的一些选项
 
-```base
+```bash
 yo code
 
      _-----_     ╭──────────────────────────╮
