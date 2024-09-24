@@ -1,7 +1,7 @@
 ---
-title: Vscode插件开发
-description: 简单的走一遍Vscode插件开发的过程和发布
-date: 2024-09-23T15:50:31:00.000+00:00
+title: VSCode插件的创建和打包发布
+description:
+date: 2024-09-24T14:20:00.000+00:00
 lang: zh
 duration: 20min
 ---
