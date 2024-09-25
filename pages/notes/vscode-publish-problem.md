@@ -159,6 +159,8 @@ export function deactivate() {}
 
 因为我使用的是mac,所以使用cmd + shift + p 调用命令窗口, 然后输入climbh.file-nesting, 就可以调用这个命令了。vscode右下角就会出现一个显示“插件启动成功”的提示框。
 
+![插件命令](https://raw.githubusercontent.com/climbh/image-bed/master/imgs/2024-09-25_16:09_d4b115_202409251608044.png)
+
 > package.json中注册的命令，就会在cmd + shift + p 调用命令窗口中调用，所以定义了命令就一定要进行实现。否则就不要定义命令，以免使用时报错。
 
 ## 三、插件的发布
@@ -167,14 +169,14 @@ export function deactivate() {}
 
 注册成功后，在左侧菜单中选择个人设置，找到个人设置，点击生成token，生成一个token。<font color=red>token生成后要保存好，弹框一旦关闭，则不会在显示token</font>
 ![生成token](https://raw.githubusercontent.com/climbh/image-bed/master/imgs/2024-09-25_15:09_52f76e_202409240921828.png)
-![生成token](https://gitee.com/climbh/image-bed/raw/master/imgs/202409240924179.png)
+![生成token](https://raw.githubusercontent.com/climbh/image-bed/master/imgs/2024-09-25_16:09_7ae22f_202409240924179.png)
 
 插件的发布使用到了 vsce 这个工具，这个工具可以打包插件，并发布到vscode的插件市场。
 
 ### 2.[Create Publisher](https://marketplace.visualstudio.com/manage) 点击创建一个发布者账号
 
 插件的发布需要用到发布者账号，发布者账号是插件的发布者。
-![插件显示的发布者名称](https://gitee.com/climbh/image-bed/raw/master/imgs/2024-09-24_10:09_03dd73_202409241036627.png)
+![插件显示的发布者名称](https://raw.githubusercontent.com/climbh/image-bed/master/imgs/2024-09-25_16:09_8060e2_2024-09-24_10_09_03dd73_202409241036627.png)
 
 ### 3.插件的打包与发布
 
@@ -195,4 +197,4 @@ npm install -g @vscode/vsce
 - 发布插件
   - 执行 vsce publish 命令发布插件。
   - 也可以执行 vsce publish --no-dependencies 命令发布插件，不发布依赖包。
-  - 还可以直接在登录[发布者](https://marketplace.visualstudio.com/manage)后，直接上传打包出来的VSIX文件。 ![发布者](https://gitee.com/climbh/image-bed/raw/master/imgs/2024-09-24_10:09_e1838f_202409241048698.png)
+  - 还可以直接在登录[发布者](https://marketplace.visualstudio.com/manage)后，直接上传打包出来的VSIX文件。 ![发布者](https://raw.githubusercontent.com/climbh/image-bed/master/imgs/2024-09-25_16:09_6ffd3e_2024-09-24_10_09_e1838f_202409241048698.png)
