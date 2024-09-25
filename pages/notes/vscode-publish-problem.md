@@ -166,7 +166,7 @@ export function deactivate() {}
 ### 1.[Azure DevOps](https://aka.ms/SignupAzureDevOps) 在该网址注册一个账号，发布插件需要用到该账号生成一个token。
 
 注册成功后，在左侧菜单中选择个人设置，找到个人设置，点击生成token，生成一个token。<font color=red>token生成后要保存好，弹框一旦关闭，则不会在显示token</font>
-![生成token](https://gitee.com/climbh/image-bed/raw/master/imgs/202409240921828.png)
+![生成token](https://gitee.com/climbh/image-bed/raw/master/imgs/2024-09-25_15:09_b76c3f_202409240921828.png)
 ![生成token](https://gitee.com/climbh/image-bed/raw/master/imgs/202409240924179.png)
 
 插件的发布使用到了 vsce 这个工具，这个工具可以打包插件，并发布到vscode的插件市场。
