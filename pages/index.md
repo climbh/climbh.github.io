@@ -1,6 +1,6 @@
 ---
 title: Blog Climbh
-description: Code H.me
+description: Climbh.me
 image: https://antfu.me/og.png
 art: random
 ---
