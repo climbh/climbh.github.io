@@ -14,6 +14,14 @@ export interface Post {
   redirect?: string
 }
 
+export interface Shoot {
+  title: string
+  date: string
+  location: string
+  weather?: string
+  desc?: string
+}
+
 export interface Talk {
   title: string
   description?: string
