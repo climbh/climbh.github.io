@@ -16,4 +16,6 @@ weather: 晴
 
 还好老天给力，三天的天气都是晴空万里。
 
-![](https://raw.githubusercontent.com/climbh/image-bed/master/imgs/2024-09-29_16:09_d8a118_IMG_1329.JPG)
+![日落时分](https://image-bed-climbh.oss-cn-hangzhou.aliyuncs.com/blog/2024-10-08_16%3A10_058aeb_IMG_0407.JPG)
+![日落时分](https://image-bed-climbh.oss-cn-hangzhou.aliyuncs.com/blog/2024-10-08_16%3A10_7230ea_IMG_0424.JPG)
+![日落时分](https://image-bed-climbh.oss-cn-hangzhou.aliyuncs.com/blog/2024-10-08_16%3A10_628136_IMG_1329.JPG)
