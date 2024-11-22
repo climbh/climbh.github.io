@@ -26,6 +26,7 @@ declare module 'vue-router/auto-routes' {
     '/notes/vscode-publish-problem': RouteRecordInfo<'/notes/vscode-publish-problem', '/notes/vscode-publish-problem', Record<never, never>, Record<never, never>>,
     '/posts/': RouteRecordInfo<'/posts/', '/posts', Record<never, never>, Record<never, never>>,
     '/posts/first-log': RouteRecordInfo<'/posts/first-log', '/posts/first-log', Record<never, never>, Record<never, never>>,
+    '/projects': RouteRecordInfo<'/projects', '/projects', Record<never, never>, Record<never, never>>,
     '/shoot/': RouteRecordInfo<'/shoot/', '/shoot', Record<never, never>, Record<never, never>>,
     '/shoot/dongji-island': RouteRecordInfo<'/shoot/dongji-island', '/shoot/dongji-island', Record<never, never>, Record<never, never>>,
     '/sponsors-list': RouteRecordInfo<'/sponsors-list', '/sponsors-list', Record<never, never>, Record<never, never>>,

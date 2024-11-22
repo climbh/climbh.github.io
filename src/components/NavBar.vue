@@ -34,19 +34,14 @@ const { y: scroll } = useWindowScroll()
           <span class="lt-md:hidden">Blog</span>
           <div i-ri-article-line md:hidden />
         </RouterLink>
-        <RouterLink to="/notes" title="Blog">
-          <span class="lt-md:hidden">Notes</span>
-          <div i-ri-booklet-line md:hidden />
-        </RouterLink>
-        <RouterLink to="/shoot" title="Blog">
-          <span class="lt-md:hidden">Shoot</span>
-          <div i-ri-live-line md:hidden />
-        </RouterLink>
-        <!-- <RouterLink to="/projects" title="Projects">
+        <RouterLink to="/projects" title="Projects">
           <span class="lt-md:hidden">Projects</span>
           <div i-ri-lightbulb-line class="md:hidden" />
         </RouterLink>
-        --->
+        <RouterLink to="/shoot" title="Shoot">
+          <span class="lt-md:hidden">Shoot</span>
+          <div i-ri-live-line md:hidden />
+        </RouterLink>
         <a href="https://github.com/climbh" target="_blank" title="GitHub" class="lt-md:hidden">
           <div i-uil-github-alt />
         </a>

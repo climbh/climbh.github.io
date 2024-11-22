@@ -8,7 +8,8 @@ duration: 5min
 
 [[toc]]
 
-> <b important-text-hex-D777B1>报错：</b> Error: Could not load the "sharp" module using the darwin-arm64 runtime
+> [!CAUTION] 错误
+> Error: Could not load the "sharp" module using the darwin-arm64 runtime
 
 错误通常发生在使用Apple Silicon（M1, M2等）处理器的Mac上，并且是因为sharp模块未正确编译或未找到适合该平台的预编译版本。
 
